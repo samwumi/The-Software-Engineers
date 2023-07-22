@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  border: 5px solid orange;
+}
+
+section {
+  background-color: cadetblue;
+  height: 400px;
+}
+
+#logo img {
+  height: 100px;
+}
+
+nav {
+  width: 50%;
+  margin: 0px auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+nav p {
+  width: 80%;
+  background-color: whitesmoke;
+  border: 2px solid orange;
+  display: block;
+  margin-left: 20px;
+}
+
+nav p a {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(58, 53, 53);
+}
+
+nav p a:hover {
+  background-color: orange;
+  border: 0;
+  color: snow;
+}
